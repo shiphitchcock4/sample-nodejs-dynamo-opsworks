@@ -4,7 +4,7 @@ node_js:
   - 0.10.25
 
 env:
-  global:
+  global: 
     - AWS_DEFAULT_REGION=us-east-1 AWS_STACK=73f89cfc-3f99-4227-a339-73a0ba30acbb AWS_APP_ID=d49ff692-7722-4a7a-9db9-3a661568ddc9
     - AWS_ACCESS_KEY_ID=AKIAJSZ63DTL3Z7KLVEQ AWS_REAL_REGION=us-west-2
     - DYNAMODB_LOCAL_DIR=/tmp/dynamodb-local
